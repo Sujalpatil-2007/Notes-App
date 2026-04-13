@@ -24,7 +24,7 @@ const App = () => {
   }
 
   return (
-    <div className='h-screen lg:flex bg-black text-white '>
+    <div className='min-h-screen lg:flex bg-black text-white '>
        <form onSubmit={(e)=>{
           submitHandler(e);
         }} className='flex lg:w-1/2 flex-col p-10 gap-5  items-center' >
